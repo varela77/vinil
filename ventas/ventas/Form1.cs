@@ -21,5 +21,10 @@ namespace ventas
         {
             MessageBox.Show("No busques los errores, busca un remedio");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
