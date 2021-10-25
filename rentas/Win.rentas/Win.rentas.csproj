@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formacce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formacce.Designer.cs">
+      <DependentUpon>Formacce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formapart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formapart.Designer.cs">
+      <DependentUpon>Formapart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formclientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +75,12 @@
     </Compile>
     <Compile Include="FormCon.Designer.cs">
       <DependentUpon>FormCon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formdel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formdel.Designer.cs">
+      <DependentUpon>Formdel.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlogin.cs">
       <SubType>Form</SubType>
@@ -88,8 +106,21 @@
     <Compile Include="Formrentas.Designer.cs">
       <DependentUpon>Formrentas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formvinilos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formvinilos.Designer.cs">
+      <DependentUpon>Formvinilos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVns.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formacce.resx">
+      <DependentUpon>Formacce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formapart.resx">
+      <DependentUpon>Formapart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formclientes.resx">
       <DependentUpon>Formclientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCon.resx">
       <DependentUpon>FormCon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formdel.resx">
+      <DependentUpon>Formdel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlogin.resx">
       <DependentUpon>Formlogin.cs</DependentUpon>
@@ -110,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formrentas.resx">
       <DependentUpon>Formrentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formvinilos.resx">
+      <DependentUpon>Formvinilos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

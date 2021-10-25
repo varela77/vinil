@@ -86,7 +86,7 @@
             // 
             this.camisasToolStripMenuItem.Name = "camisasToolStripMenuItem";
             this.camisasToolStripMenuItem.Size = new System.Drawing.Size(210, 30);
-            this.camisasToolStripMenuItem.Text = "camisas";
+            this.camisasToolStripMenuItem.Text = "clientes";
             this.camisasToolStripMenuItem.Click += new System.EventHandler(this.camisasToolStripMenuItem_Click);
             // 
             // accesoriosToolStripMenuItem
@@ -125,12 +125,14 @@
             this.apartadosToolStripMenuItem.Name = "apartadosToolStripMenuItem";
             this.apartadosToolStripMenuItem.Size = new System.Drawing.Size(240, 30);
             this.apartadosToolStripMenuItem.Text = "apartados";
+            this.apartadosToolStripMenuItem.Click += new System.EventHandler(this.apartadosToolStripMenuItem_Click);
             // 
             // deliveryToolStripMenuItem
             // 
             this.deliveryToolStripMenuItem.Name = "deliveryToolStripMenuItem";
             this.deliveryToolStripMenuItem.Size = new System.Drawing.Size(240, 30);
             this.deliveryToolStripMenuItem.Text = "delivery";
+            this.deliveryToolStripMenuItem.Click += new System.EventHandler(this.deliveryToolStripMenuItem_Click);
             // 
             // nuevosProductosToolStripMenuItem
             // 

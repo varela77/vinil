@@ -30,17 +30,23 @@ namespace Win.rentas
 
         private void vinilosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            var formvinilos = new Vinilos();
+            formvinilos.MdiParent = this;
+            formvinilos.Show();
         }
 
         private void camisasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            var formclientes = new Formclientes();
+            formclientes.MdiParent = this;
+            formclientes.Show(); 
         }
 
         private void accesoriosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            var formacce = new Formacce();
+            formacce.MdiParent = this;
+            formacce.Show();
         }
 
         private void coleccionablesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -58,6 +64,18 @@ namespace Win.rentas
             login();
     }
 
+        private void apartadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formapart = new Formapart();
+            formapart.MdiParent = this;
+            formapart.Show();
+        }
 
+        private void deliveryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formdel = new Formdel();
+            formdel.MdiParent = this;
+            formdel.Show();
+        }
     }
 }
