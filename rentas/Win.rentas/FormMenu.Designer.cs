@@ -79,7 +79,7 @@
             // 
             this.vinilosToolStripMenuItem.Name = "vinilosToolStripMenuItem";
             this.vinilosToolStripMenuItem.Size = new System.Drawing.Size(210, 30);
-            this.vinilosToolStripMenuItem.Text = "vinilos";
+            this.vinilosToolStripMenuItem.Text = "productos";
             this.vinilosToolStripMenuItem.Click += new System.EventHandler(this.vinilosToolStripMenuItem_Click);
             // 
             // camisasToolStripMenuItem
